@@ -24,7 +24,7 @@ inserts = ['asloth', 'bsloth', ..., 'slothy', 'slothz']
 
 The function looks at every possible edit to the input   a deletion of any character, a transposition of any 2 adjacent characters, replacing any character in the input with a random character or simply inserting a random character.
 
-The result is a challenging amount of computation that needs to happen, and which grows exponentially with respect to the length of the input string.
+Therefore, it is necessary to compute a difficult amount, which increases exponentially with respect to the length of the input string.
 
 As a result, it is reasonable to use simulated spelling error data without using such a large amount of nonsensical data.
 
