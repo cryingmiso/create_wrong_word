@@ -5,19 +5,19 @@ Wrong word created for deep learning data.
 This pair data can be used in the seq2seq typo correction model. maybe.
 
 
+<pre>
+#eg:
 
->eg:
+target_word = "sloth"
 
->target_word = "sloth"
+deletes = ['loth', 'soth', 'slth', 'sloh', 'slot']
 
->deletes = ['loth', 'soth', 'slth', 'sloh', 'slot']
+transposes = ['lsoth', 'solth', 'sltoh', 'sloht']
 
->transposes = ['lsoth', 'solth', 'sltoh', 'sloht']
+replaces = ['aloth', 'bloth', ... , 'sloty', 'slotz']
 
->replaces = ['aloth', 'bloth', ... , 'sloty', 'slotz']
-
->inserts = ['asloth', 'bsloth', ..., 'slothy', 'slothz']
-
+inserts = ['asloth', 'bsloth', ..., 'slothy', 'slothz']
+</pre>
 
 
 **but,**
